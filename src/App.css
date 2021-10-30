@@ -1,0 +1,17 @@
+.home{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.home button{
+  padding: 1rem 2rem;
+  border: inherit;
+  outline: inherit;
+  background-color: #00b0ff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
