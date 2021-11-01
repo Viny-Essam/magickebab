@@ -5,29 +5,34 @@ Application développée à l'aide de <b>Create React App</b> et <b>Bootstrap</b
 <h3> Organisation:</h3>
 
 Le projet repose sur une architecture assez classique. Chaque composant est disponible dans le dossier <b><i>components</i></b>.
+# Contributions de magic-kebab
 
-Panier
-<ul>
-    <li>/components/checkout/checkout.component.js</li>
-    <li>/components/checkout/checkout.css</li>
-</ul>
+L'ensemble des directives pour contribuer au site web de Magic Kebab
+sur GitHub. Il ne s'agit que de directives, pas de règles, alors utilisez votre meilleur jugement et
+n'hésitez pas à proposer des modifications à ce document dans une demande de modification.
 
-Menu
-<ul>
-    <li>/components/menu/menu.component.js</li>
-    <li>/components/menu/menu.css</li>
-</ul>
+## Exécution du site
 
-Preparation
-<ul>
-    <li>/components/preparing/preparing.component.js</li>
-    <li>/components/preparing/preparing.css</li>
-</ul>
+Suivez ces étapes pour copier ce dépôt sur votre ordinateur et exécuter le site :
 
-Etapes de configuration (Step 1 -> Step 5)
-<ul>
-    <li>/components/step*/step*.component.js</li>
-    <li>/components/step*/step*.css</li>
-</ul>
+```bash
+git clone https://github.com/Viny-Essam/magickebab.git
+cd magic-kebab
+npm install
+npm start
+```
+
+## Structure
+
+```
+├── public
+│   └── images
+│       ├── names
+└── src
+    ├── components
+    ├── App.css
+    └── index
+```
+
 
 Pour le reste, la base du  projet avec sa logique repose dans le fichier <b><i>App.js</i></b>.
