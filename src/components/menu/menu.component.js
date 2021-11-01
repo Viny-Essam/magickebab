@@ -10,7 +10,7 @@ class Menu extends Component {
                 <div className="col-sm mt-2">
                     <div className="row justify-content-center align-self-center">
                         
-                        <h3 className="text-center mb-4"><br/>Principaux Menus du Magic KEKAB project E3 VINY - MANUEL</h3>   
+                        <h3 className="text-center mb-4"><br/>Principaux Menus du Magic KEKAB project E3 WEVAVAN - VINY - MANUEL</h3>   
                         {
                             this.props.menu.map((item, index) => {
                                 return (
