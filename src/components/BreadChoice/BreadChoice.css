@@ -1,0 +1,30 @@
+@import url('http://fonts.googleapis.com/css?family=Inconsolata');
+
+.row div button{
+    font-family: "Incosolate" !important;
+    color: #4D0302;
+    font-weight: bold !important;
+    background-color: #fff6d6 !important;
+}
+h1{
+    font-family: Inconsolata !important;
+    color: #4D0302;
+    font-weight: bold !important;
+    
+}
+.background {
+    font-family: "Incosolate" !important;
+    background-color: #fff6d6;
+}
+
+.margin {
+    margin-top: 10%;
+}
+
+.selectable:hover {
+    opacity: 80%;
+}
+.image-food{
+    width: 80%;
+    height: 150px;
+}
